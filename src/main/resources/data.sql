@@ -3,8 +3,8 @@
 SELECT 0 as INUTILE;
 
 -- Ajouter des enregistrements pour Personne
-INSERT INTO Personne (matricule, nom, prenom, poste) VALUES (1, 'Dupont', 'Jean', 'Développeur');
-INSERT INTO Personne (matricule, nom, prenom, poste) VALUES (2, 'Martin', 'Marie', 'Chef de Projet');
+INSERT INTO Personne (matricule, nom, prenom, poste) VALUES (1, 'Lamine', 'Elyes', 'Développeur');
+INSERT INTO Personne (matricule, nom, prenom, poste) VALUES (2, 'Pecatte', 'Jean-Marie', 'Chef de Projet');
 
 -- Ajouter des enregistrements pour Projet
 INSERT INTO Projet (code, nom, debut, fin) VALUES (1, 'Projet A', '2023-01-01', '2023-12-31');
